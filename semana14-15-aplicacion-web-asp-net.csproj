@@ -166,6 +166,8 @@
     <Content Include="Account\ResetPasswordConfirmation.aspx" />
     <Content Include="Account\TwoFactorAuthenticationSignIn.aspx" />
     <Content Include="Account\VerifyPhoneNumber.aspx" />
+    <Content Include="agregar_empleado.aspx" />
+    <Content Include="agregar_usuario.aspx" />
     <Content Include="cantones.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
@@ -175,6 +177,7 @@
     <Content Include="Content\Site.css" />
     <Content Include="Default.aspx" />
     <Content Include="departamentos.aspx" />
+    <Content Include="eliminar_empleado.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -187,9 +190,11 @@
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="Account\Web.config" />
+    <Content Include="login.aspx" />
+    <Content Include="modificar_empleado.aspx" />
     <Content Include="municipios.aspx" />
     <Content Include="municipios2.aspx" />
-    <Content Include="WebForm1.aspx" />
+    <Content Include="listado.aspx" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -331,6 +336,20 @@
     <Compile Include="Account\VerifyPhoneNumber.aspx.designer.cs">
       <DependentUpon>VerifyPhoneNumber.aspx</DependentUpon>
     </Compile>
+    <Compile Include="agregar_empleado.aspx.cs">
+      <DependentUpon>agregar_empleado.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="agregar_empleado.aspx.designer.cs">
+      <DependentUpon>agregar_empleado.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="agregar_usuario.aspx.cs">
+      <DependentUpon>agregar_usuario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="agregar_usuario.aspx.designer.cs">
+      <DependentUpon>agregar_usuario.aspx</DependentUpon>
+    </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="About.aspx.cs">
       <DependentUpon>About.aspx</DependentUpon>
@@ -370,10 +389,31 @@
     <Compile Include="departamentos.aspx.designer.cs">
       <DependentUpon>departamentos.aspx</DependentUpon>
     </Compile>
+    <Compile Include="eliminar_empleado.aspx.cs">
+      <DependentUpon>eliminar_empleado.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="eliminar_empleado.aspx.designer.cs">
+      <DependentUpon>eliminar_empleado.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="modificar_empleado.aspx.cs">
+      <DependentUpon>modificar_empleado.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="modificar_empleado.aspx.designer.cs">
+      <DependentUpon>modificar_empleado.aspx</DependentUpon>
+    </Compile>
     <Compile Include="municipios.aspx.cs">
       <DependentUpon>municipios.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -418,12 +458,12 @@
     <Compile Include="ViewSwitcher.ascx.designer.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
     </Compile>
-    <Compile Include="WebForm1.aspx.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
+    <Compile Include="listado.aspx.cs">
+      <DependentUpon>listado.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="WebForm1.aspx.designer.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
+    <Compile Include="listado.aspx.designer.cs">
+      <DependentUpon>listado.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
